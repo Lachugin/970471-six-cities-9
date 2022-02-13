@@ -1,11 +1,11 @@
 import React from 'react';
 
-function PlaceCard() {
+function PlaceCard(): JSX.Element {
   return (
     <article className="cities__place-card place-card">
       <div className="cities__image-wrapper place-card__image-wrapper">
         <a href="/">
-          <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200"  alt="Place" />
+          <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place" />
         </a>
       </div>
       <div className="place-card__info">
@@ -23,7 +23,7 @@ function PlaceCard() {
         </div>
         <div className="place-card__rating rating">
           <div className="place-card__stars rating__stars">
-            <span style={{width: '80%'}}></span>
+            <span style={{ width: '80%' }}></span>
             <span className="visually-hidden">Rating</span>
           </div>
         </div>
